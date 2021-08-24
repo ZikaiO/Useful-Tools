@@ -10,6 +10,7 @@
 - [Switch Branch](#switch-branch)
 - [Delete branch](#delete-branch)
   - [Delete Remote Branch](#delete-remote-branch)
+- [Commit](#commit)
 
 # Initialize New Repository
 
@@ -52,9 +53,6 @@ $ git reset HEAD
 ```
 $ rm -rf <repo_folder>/.git
 ```
-
-
-
  git remote add origin https://github.com/ZikaiO/Notes.git
 
 
@@ -101,4 +99,9 @@ $ git push -d <remote_name> <branch_name>
 $ git push -d origin git-push
 ```
 
-
+# Commit
+```
+$ git commit -a
+or
+$ git commit
+```
