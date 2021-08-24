@@ -52,6 +52,10 @@ $ rm -rf <repo_folder>/.git
 $ git clone 
 ```
 
+# Change Branch
+```
+$ git switch <local-branch>
+```
 
 
 # Delete branch
