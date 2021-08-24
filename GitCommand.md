@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # Initialize New Repository
 
 ```
@@ -52,7 +54,17 @@ $ rm -rf <repo_folder>/.git
 $ git clone 
 ```
 
-# Change Branch
+# List All Branches
+## Local
+```
+$ git branch
+```
+## Remote
+```
+$ git branch -r
+```
+
+# Switch Branch
 ```
 $ git switch <local-branch>
 ```
@@ -69,4 +81,13 @@ If you want to delete such a branch nonetheless (e.g. because you've programmed 
 ```
 $ git branch -D <local-branch>
 ```
+
+## Delete Remote Branch
+```
+$ git push -d <remote_name> <branch_name>
+
+
+$ git push -d origin git-push
+```
+
 
