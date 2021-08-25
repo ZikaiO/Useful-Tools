@@ -11,6 +11,7 @@
 - [Delete branch](#delete-branch)
   - [Delete Remote Branch](#delete-remote-branch)
 - [Commit](#commit)
+- [Resolving Conflicts](#resolving-conflicts)
 
 # Initialize New Repository
 
@@ -101,9 +102,14 @@ $ git push -d origin git-push
 
 # Commit
 ```
-$ git commit -a
-or
 $ git commit
 or
+$ git commit -a
+or
 $ git commit -a -m <message>
+```
+
+# Resolving Conflicts
+```
+$ git reset --hard HEAD
 ```
