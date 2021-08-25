@@ -104,4 +104,6 @@ $ git push -d origin git-push
 $ git commit -a
 or
 $ git commit
+or
+$ git commit -a -m <message>
 ```
